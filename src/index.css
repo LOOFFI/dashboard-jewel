@@ -12,3 +12,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.under {
+  font-family: 'Courier New', Courier, monospace;
+  color:white;
+  font-size: 3rem;
+
+  
+}
+
+#first {
+  padding: 5px;
+  height: 5rem;
+  position: relative;
+  width: 100%;
+  background: grey;
+  animation: headerMove 3s ease-out;
+}
+
+#second {
+  padding: 5px;
+  height: 5rem;
+  position: relative;
+  width: 100%;
+  background: grey;
+  animation: headerMove 1.5s ease-out;
+}
+
+#third {
+  padding: 5px;
+  height: 5rem;
+  position: relative;
+  width: 100%;
+  background: grey;
+  animation: headerMove 2s ease-out;
+}
+
+@keyframes headerMove {
+  from {width: 0%; }
+  to {width: 100%; }
+}
