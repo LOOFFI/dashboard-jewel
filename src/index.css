@@ -47,6 +47,7 @@ code {
   width: 100%;
   background: grey;
   animation: headerMove 2s ease-out;
+
 }
 
 @keyframes headerMove {

@@ -9,10 +9,13 @@ class Header extends React.Component {
   render() { 
     return (
       
-        <div class="under">
-        <div id="first">Ceci est un exercice</div>
-        <div id="second">Voici le dashboard</div>
-        <div id="third">This is the effect</div>
+      <div class="under">
+        <div id="first">
+        <p>Ceci.est.un.exercice</p>
+        </div>
+        
+        <div id="second"><p>Voici.le.dashboard</p></div>
+        <div id="third"><p>This.is.the.effect</p></div>
       </div>
       
       );
